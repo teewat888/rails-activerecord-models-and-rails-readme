@@ -60,7 +60,9 @@ get a firm understanding of how to build a model, database table, etc.
 In order to get started, we will first create an RSpec test. We've provided a
 basic skeleton of a Rails application using RSpec in this repo.
 
-To generate this app, we installed the Rails gem, then ran
+To generate this app, we installed the Rails gem, then ran the following
+commands. **Note**: you don't have to run these commands yourself; they're just
+here to demonstrate how this app was created.
 
 ```bash
 # the -T flag tells the Rails project generator not to
@@ -71,7 +73,7 @@ rails new rails-activerecord-models-and-rails-readme -T
 cd rails-activerecord-models-and-rails-readme
 
 # We modified the Gemfile to include
-# gem 'rspec-rails', '~> 3.0'
+# gem 'rspec-rails', '~> 4.0'
 # in the :development, :test group, then ran:
 
 bundle install
